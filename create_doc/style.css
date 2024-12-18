@@ -3,9 +3,10 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+
     color: rgb(var(--bs-tertiary-color-rgb));
+    height: 100%;
 }
 
 .navbar-nav .nav-item {
@@ -32,6 +33,18 @@ body {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+
+/* Set the height of the carousel */
+#myCarousel {
+    height: 70%;
+    /* Adjust this value to control the height */
+}
+
+#myCarousel .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+    /* Ensure images cover the container and don't distort */
+}
 
 /* Carousel base class */
 .carousel {
@@ -83,6 +96,27 @@ body {
 }
 
 /* rtl:end:remove */
+
+.container-fluid {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Footer styles */
+footer {
+    width: 100%;
+    background-color: #e36222;
+    color: white;
+    text-align: center;
+    text-decoration-color: solid #631d76;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}
+
+hr {
+    color: #631d76;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
