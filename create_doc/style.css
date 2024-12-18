@@ -8,6 +8,27 @@ body {
     color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+.navbar-nav .nav-item {
+    margin: 0 15px;
+    /* Adjust spacing between nav items */
+}
+
+.nav-link:hover {
+    border: 2px solid #e36222;
+    /* Adjust thickness if needed */
+    border-radius: 4px;
+    /* Optional: to make the border rounded */
+    padding: 2px 4px;
+    /* Adjust padding to maintain alignment */
+}
+
+/* Add a border for the active state */
+.nav-link.active {
+    border: 2px solid #e36222;
+    border-radius: 4px;
+    /* Optional */
+    padding: 2px 4px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
