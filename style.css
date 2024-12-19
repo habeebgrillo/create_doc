@@ -11,6 +11,7 @@ body {
 
 .navbar-nav .nav-item {
     margin: 0 15px;
+    text-align: center;
     /* Adjust spacing between nav items */
 }
 
@@ -105,7 +106,7 @@ body {
 /* Footer styles */
 footer {
     width: 100%;
-    background-color: #e36222;
+    background-color: #303030;
     color: white;
     text-align: center;
     text-decoration-color: solid #631d76;
@@ -116,6 +117,13 @@ footer {
 
 hr {
     color: #631d76;
+}
+
+/* for the footer*/
+.nav-link {
+    color: white;
+    text-align: center;
+    margin: 0 15px;
 }
 
 /* RESPONSIVE CSS
